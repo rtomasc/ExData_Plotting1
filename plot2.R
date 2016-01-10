@@ -24,9 +24,13 @@ HouseholdData$NewDate=strptime(HouseholdData$DateTimeC, "%d/%m/%Y %H:%M:%S")
 HouseholdData$weekday<-weekdays(HouseholdData$NewDate, abbreviate=TRUE)
 
 
-#PLOT 2 
+#PLOT 2
 par(mfrow = c(1,1))
 png(filename = "plot2.png",width = 480, height = 480, units = "px")
 with(HouseholdData, plot(NewDate, Global_active_power, ylab="Global Active Power (kilowatts)", xlab=" ", pch=NA_integer_))
 lines(HouseholdData$NewDate, HouseholdData$Global_active_power)
 dev.off()
+
+
+
+

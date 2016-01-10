@@ -1,4 +1,5 @@
 #PART 0. Downloading the zip file and getting data. Already done. 
+
 #fileUrl<-"https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip"
 #download.file(FileUrl, destfile="household_power_consumption.zip")
 #downloaded<-date()
