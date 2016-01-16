@@ -1,6 +1,6 @@
 Modified from the original readme.md
 
-Please note that plots swho weekdays in Spanish, as it is the local language of my PC
+Please note that plots show weekdays in Spanish, as it is the local language of my PC
 ## Introduction
 
 This assignment uses data from
