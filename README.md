@@ -43,12 +43,13 @@ web site</a>:
 * The dataset is a text file (has 2,075,259 rows and 9 columns. sep = ";", missing values = `?`
 
 * We only us data from the dates 2007-02-01 and
-2007-02-02. We get a dataframe named HouseholdData, with 1440 rows. 
+2007-02-02. We get a dataframe named HouseholdData, with 2880 rows. 
 
 * the Date and Time variables have been converted to
 Date/Time classes in R using the `strptime()` function.
 
 * Weekday is added as a new variable. PLEASE NOTE WEEKDAY IS IN SPANISH, AS THIS IS MY LOCAL PC LANGUAGE.
+* HouseholdData have now 11 columns (variables)
 
 Instructions for reading and transforming data are included in each plotX.R script, as was said to do. 
 
